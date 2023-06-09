@@ -1,0 +1,125 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-image: url(./imgs/artem-kniaz-DqgMHzeio7g-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .heading{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000b8;
+    display: flex;
+    padding: 20px;
+  }
+  .ic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .navigation ul {
+    list-style: none;
+  }
+  .navigation ul li{
+    margin: 20px;
+    list-style: none;
+    display: inline-block;
+  }
+  .navigation ul li a{
+    padding: 10px;
+    transition: 0.2s ease;
+    text-decoration: none;
+  }
+  .navigation ul li a:hover{
+    transition: .5s;
+    border-radius: 20px;
+    background-color: #1f1e1e;
+  }
+
+  input{
+    visibility: hidden;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff92;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+
+  section {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .codi{
+    text-align: center;
+  }
+
+  .cont{
+		background-color: #007bff;
+		color: #fff;
+		padding: 10px 20px;
+		border-radius: 5px;
+		text-decoration: none;
+		font-size: 18px;
+		margin-top: 20px;
+  }
+
+  .cont:hover{
+    background-color: #0069d9;
+  }
+
+  .links{
+    display: inline;
+  }
+
+  .lik{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .add{
+    margin-left: 50%;
+    margin-bottom: 10px;
+    width: fit-content;
+    /* display: flex; */
+    padding: 10px;
+    background-color: #f2ebebee;
+  }
+
+  .image{
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

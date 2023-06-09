@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./imgs/artem-kniaz-DqgMHzeio7g-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.heading{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000b8;
+    display: flex;
+    padding: 20px;
+}
+.ic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.navigation ul {
+    list-style: none;
+}
+.navigation ul li{
+    margin: 20px;
+    list-style: none;
+    display: inline-block;
+}
+.navigation ul li a{
+    padding: 10px;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+.navigation ul li a:hover{
+    transition: .5s;
+    border-radius: 20px;
+    background-color: #1f1e1e;
+}
+.lo{
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    background-color: hsl(0, 0%, 2%);
+    text-decoration: none;
+    color: white;
+}
+.lo:hover{
+    background-color: #fff;
+    border-radius: 20px;
+    color: #000;
+    transition: .5s;
+}
+.cards{
+    border-radius: inherit;
+    display: flex;
+    margin: 50px;
+}
+.foreign,
+.born,
+.registered {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #000000ac;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.for{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.forlink{
+    text-align: center;
+    font-size: 24px;
+}
+.forim{
+    border-radius: inherit;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bor{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.borlink{
+    text-align: center;
+    font-size: 24px;
+}
+.borim{
+    border-radius: inherit;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.reg{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.reglink{
+    text-align: center;
+    font-size: 24px;
+}
+.regim{
+    border-radius: inherit;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+.exp{
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin-left: 43%;
+    width: 150px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    background-color: hsla(0, 0%, 0%, 0.742);
+}
+.exp:hover{
+    background-color: #444;
+    color: #fff;
+    transition: .5s;
+}
+.ours{
+    display: flex;
+}
+.partners{
+    margin: 60px;
+}
+.imgp{
+    border-radius: 15px;
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    background-color: hsla(0, 0%, 0%, 0.756);
+}
+.nisr{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.sponsors{
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+.imgSP{
+    border-radius: 15px;
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    background-color: hsla(0, 0%, 0%, 0.756);
+}
+.nisr{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.par{
+    background-color: #4f4e4e;
+    text-align: center;
+    padding: 10px;
+}
+
+.lud{
+    text-align: center;
+}
+
+.ld{
+    color: black;
+}
+.RSSB{
+    border-radius: 10px;
+}
